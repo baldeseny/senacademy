@@ -1,0 +1,162 @@
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Projet dérivé de "Projet : Blog"</title>
+        <style>
+        
+                  /* c'est corps   */
+                  
+            body{font-family:Arial;
+                padding:20px;
+                background:#f1f1f1;
+            }
+            
+             /* c'est tete   */
+           header{
+               padding:30px;
+               font-size:40px;
+               text-align:center;
+               background:white;
+               
+            }
+            /* c'est la coté gauche   */
+            .colgauche{
+               float:left; 
+                width:75%;
+            }
+            
+            /* c'est coté droite   */
+            
+            .coldroite{
+             float:right;
+             width:25%;
+             padding-left:20px;
+            }
+            
+            
+            .timg{
+                
+                background-color:#aaa;
+                width:100%;
+                padding:20px;
+            }
+            
+            .cd{
+                background-color:white;
+                padding :20px;
+                margin-top:20px;
+            }
+            
+        
+            .row:after{
+                content:none;
+                display:table;
+                clear:both;
+            }
+            /* c'est footer   */
+            .footer{
+                padding:20px;
+                text-align:center;
+                background:#ddd;
+                margin-top:20px;
+            }
+            
+            
+           /* @media screen and(max-width:700px){
+                
+              .coldroite, .colgauche{
+                  width:100%;
+                  padding:0;
+              }
+            }*/
+            .sb{
+                text-align:center;
+            }
+            
+            .DF{background:purple;
+                text-align:center;
+            }
+            a{
+                text-decoration:none;
+            }
+            
+            button{
+                margin-top:10px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <div class="header">
+        <h2 class="sb">SENY BALDE</h2>
+        <p>Etudiant en Dévelopement Informatique</p>
+        </div>
+        
+        <div class="row">
+        <div class="colgauche">
+        <div class="cd">
+        <h2 class="DF">Diplomes & Formations</h2>
+        <ul> 
+              <li>Licence Dévelopement Informatique</li>
+               
+        </ul>
+        <h2 class="DF">Expériences</h2>
+        <ul>
+        
+              <li> Agent Commercial</li>
+        </ul>
+        
+        <div class="en" style="height:200px;background-color:blue;text-align:center">Vidéo de présentation de parcours  </div>
+        <h2 class="DF">Compétences</h2>
+        <li> Développeur Front-end</li>
+        </div>
+        </div>
+         <div class="coldroite">
+          <div class="cd"> 
+             <h2> sur moi</h2> 
+             
+        <div class="en" style="height:140px;background-color:blue;text-align:center">img  </div>
+      <h2 class="DF">Centre d'Intéret</h2>        <ul>
+        
+              <li> Football</li>
+              <li>Musique</li>
+              <li> Lecture</li>
+        </ul>
+          </div>  
+           <div class="cd"> 
+              <h3>popularité</h3>
+              <div class="timg">Instagram
+               <a href="http://www.instgr"> ici</a>
+              </div> <br>
+              <div class="timg">twiter
+                   <a href="http://www.instgr"> ici</a>
+              </div>
+               <br>
+              
+               <div class="timg">youtube
+                    <a href="http://www.instgr"> ici</a>
+               </div>
+               
+               
+           </div>
+           
+           <div class="cd">
+               <h3>commentaire</h3>
+               <form action="" methode="post"> 
+                 <label > </label>
+                  <input type="text" name="name" id="name" required> 
+               </form>
+               <button>Envoyez </button>
+           </div>
+         </div>  
+        </div>
+        
+        <div class="footer">
+          <h2>footer</h2>  
+        </div>
+        
+    </body>
+</html>
